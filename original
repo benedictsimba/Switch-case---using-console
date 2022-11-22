@@ -1,0 +1,20 @@
+var grade = 'A'
+switch (grade)
+{
+    case'A':
+console.log("grade is A, good job")
+break;
+    case 'B':
+        console.log("NOt that bad")
+        break;
+    case 'C':
+        console.log("Grade C aint that baad")
+        break;
+    case 'D':
+        console.log("You are a failure")
+        break;
+    case 'F':
+        console.log("an F, be serious dude")
+        default:
+            console.log("you should not be here")
+}
